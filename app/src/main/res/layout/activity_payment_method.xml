@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raghadm.As_hlLk2.PaymentMethod"
+    android:background="#FFC598">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="247dp"
+        android:layout_height="43dp"
+        android:text="Payment Method?"
+        android:textStyle="bold"
+        android:textColor="#228B22"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="22dp"
+
+       />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="55dp"
+            android:text="KNET"
+            android:textStyle="bold"
+            android:textColor="#228B22"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="55dp"
+            android:text="Cash"
+            android:textColor="#228B22"
+            android:textStyle="bold"
+
+            />
+
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>

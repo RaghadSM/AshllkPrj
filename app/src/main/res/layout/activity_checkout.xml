@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raghadm.As_hlLk2.checkout"
+    android:background="#FFC598">
+
+    <Button
+        android:id="@+id/destinationButton"
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="157dp"
+        android:background="#228B22"
+        android:text="Destination "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/selectDel"
+        app:layout_constraintEnd_toEndOf="@+id/selectDel"
+        app:layout_constraintStart_toStartOf="@+id/selectDel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/selectDel"
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="11dp"
+        android:background="#228B22"
+        android:text="Select deliverer"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/paymentbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destinationButton" />
+
+    <Button
+        android:id="@+id/paymentbtn"
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="192dp"
+        android:background="#228B22"
+        android:layout_marginTop="5dp"
+        android:text="Payment method"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectDel" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:background="#228B22"
+        android:text="Confirm"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="431dp" />
+</android.support.constraint.ConstraintLayout>
